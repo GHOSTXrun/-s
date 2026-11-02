@@ -23,4 +23,7 @@ guide.after(launch);
 const english='VYNSIQ is a multi-model AI security research project focused on authorized exchange security research. It aims to connect source monitoring, independent review, evidence verification and human-reviewed reporting to pursue valid bug bounties. The current public release is an interactive prototype; no live scanning or model integrations are active.';
 async function copy(text){try{await navigator.clipboard.writeText(text);toast('项目介绍已复制')}catch{const area=document.createElement('textarea');area.value=text;launch.append(area);area.select();const ok=document.execCommand('copy');area.remove();toast(ok?'项目介绍已复制':'复制不可用，请选择页面文案手动复制')}}$('#copyVynChinese').onclick=()=>copy($('#vynDescription').textContent);$('#copyVynEnglish').onclick=()=>copy(english);
 window.vynsiqBrand={setTheme,descriptionEnglish:english};
+// Public presentation runs automatically at 4x; retain hidden controller nodes for synchronization.
+document.querySelectorAll('.livecontrols,.readingtools,.readingbottom,.guidehead [data-open="reading"],.guidestatus>span:last-child').forEach(el=>{el.hidden=true;el.setAttribute('aria-hidden','true')});
+document.querySelectorAll('#playSpeed,#readingSpeed,#terminalSpeed').forEach(el=>{el.value='4'});
 })();
