@@ -1,0 +1,36 @@
+VYNSIQ / PUBLIC LAUNCH MATERIAL
+
+项目名：VYNSIQ
+标语：See the signal. Verify the risk.
+
+中文介绍：
+VYNSIQ 是一个多模型 AI 安全研究项目，旨在授权范围内持续研究交易所安全、验证漏洞线索并整理可核验报告，通过有效报告探索漏洞赏金收入。当前公开版本为交互原型，尚未执行真实扫描。
+
+English description:
+VYNSIQ is a multi-model AI security research project focused on authorized exchange security research. It aims to connect source monitoring, independent review, evidence verification and human-reviewed reporting to pursue valid bug bounties. The current public release is an interactive prototype; no live scanning or model integrations are active.
+
+六模块：
+Research Vault / 资料索引与研究记忆
+Research Orchestrator / 研究任务和规则分配
+Multi-model Core / Claude 分析、GPT 独立复核、Gemini 整理
+Evidence Verifier / 引用、版本与验证材料核对
+Research Workstation / 本地任务、记录与报告草稿
+Evidence Graph / 目标、假设、证据和报告之间的关系
+
+当前交付：
+可交互单页前端、模拟流程、模块说明、正文批注、导出和本地状态。
+
+后续里程碑：
+模型与后端接入 → 授权研究试点 → 真实验证与人工确认 → 报告审核与复盘。
+
+启动信息待补：
+已验证的 Pump.fun 代币页面
+合约地址
+官方 X 和 Telegram
+发行参数、分配和锁定安排（如采用，以实际确认信息为准）
+
+源码：https://github.com/GHOSTXrun/-s
+平台费用：https://pump.fun/docs/fees
+平台条款：https://pump.fun/docs/terms-and-conditions
+
+漏洞赏金不等于代币持有人收入。当前未公布任何代币收益分配、分红或回购方案，不承诺固定收益。
