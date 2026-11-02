@@ -2,51 +2,55 @@
 
 **See the signal. Verify the risk.**
 
-VYNSIQ 是一个多模型 AI 安全研究项目，旨在授权范围内持续研究交易所安全、验证漏洞线索并整理可核验报告，通过有效报告探索漏洞赏金收入。
+VYNSIQ is a multi-model AI security research project focused on authorized exchange research, evidence verification and inspectable reporting. It aims to pursue valid bug bounties through human-reviewed reports.
 
-当前版本是可交互前端原型：没有真实模型连接、外部扫描、漏洞利用或报告外发。所有目标、线索、吞吐、日志和账本均为模拟数据。
+The public release is an interactive frontend prototype. No live model integrations, external scanning, exploitation or report submissions are active. Targets, findings, throughput, events and ledger balances are sample data.
 
-## 本地运行
+## Run locally
 
-直接打开根目录 `index.html`。或下载独立文件 `VYNSIQ-terminal.html`，无需依赖或网络字体。
+Open index.html, or download VYNSIQ-terminal.html for the self-contained version. No installation or external fonts are required.
 
-## 单页结构
+## Single-page workspace
 
-- 品牌介绍与会话操作。
-- 六联研究终端：知识库、调度器、推理核心、证据核验、执行台、关系图谱。
-- 漏洞线索、模拟日志、正文高亮与同步旁注。
-- 示例授权目标和演示账本。
-- 项目定位、操作手册、开发路线、启动信息与 FAQ。
-- 可复制的中英文项目介绍。
+- Project identity, session information and research overview.
+- Six-system terminal: vault, orchestrator, multi-model core, evidence verifier, workstation and graph.
+- Finding queue, local event stream and annotated research reader.
+- Sample in-scope targets and illustrative bounty ledger.
+- Operating guide, milestones, launch information and FAQ.
+- Copy-ready English project descriptions.
 
-顶部导航只定位到同一页的不同区域。新建模拟任务、复核状态、报告导出、倍速、暂停和重播均可操作。
+Navigation scrolls within one document. Public playback loops automatically at 4x; speed, pause, replay and progress controls are removed from the visible page. Task creation, finding details, review status and exports remain available.
 
-## 视觉系统
+## Identity and language
 
-Logo 由项目方提供。默认星尘紫，另有冰蓝、粉紫、琥珀三套可切换配色，以及 MONO、SANS、SERIF 三种字体风格。选择保存于本地浏览器。
+The project owner supplied the logo. Four palettes are available: stardust lilac, ice blue, rose and amber. Terminal, modern sans-serif and editorial typography can be selected. Preferences are stored locally.
 
-## 研究路径
+All frontend text, labels, tooltips, dialogs, events and report exports are in English.
 
-授权目标 → 资料索引 → AI 分析 → 独立复核 → 授权环境验证 → 证据整理 → 人工确认并提交 → 项目方审核 → 结果回写。
+## Research loop
 
-Claude、GPT、Gemini 是规划的协作角色，当前未连接 API。实际报告需要研究员确认授权、影响、复现与重复情况。模型共识和界面高亮不等于漏洞成立。
+Authorized target → Source index → AI analysis → Independent review → Authorized verification → Evidence organization → Human-approved submission → Program review → Feedback to memory.
 
-## 启动信息
+Claude, GPT and Gemini are planned collaboration roles, not live connections. A researcher must verify scope, impact, reproduction and duplicates before submitting through the designated program channel.
 
-计划在 Pump.fun 启动。当前未提供已验证的代币页面、合约地址、社交账号或发行参数，因此网站标为待公布，不显示虚构的购买入口。
+## Launch status
 
-漏洞赏金和代币是不同事项。当前未公布代币收益分配、分红或回购方案，不承诺固定收益。平台机制请以官方文档为准：
+A Pump.fun launch is planned. No verified token page, contract address, official social accounts, allocations or vesting parameters have been supplied. Pending entries do not link to invented assets.
+
+Bounty revenue is separate from token ownership. No token revenue-distribution, dividend or buyback arrangement has been announced, and no fixed return is promised.
+
+Official platform references:
 
 - https://pump.fun/docs/fees
 - https://pump.fun/docs/terms-and-conditions
 
-## 下一阶段
+## Next milestones
 
-1. 模型 API、后端任务队列、资料存储及身份权限。
-2. 明确授权的少量目标试点。
-3. 真实证据、人工复核、私密报告与可披露结果。
-4. 根据有效报告率与成本评估扩大范围。
+1. Model APIs, backend queues, source storage and access control.
+2. A small explicitly authorized research pilot.
+3. Real evidence, human review, private reports and permitted disclosures.
+4. Evaluate expansion using accepted-report rates, effort and actual costs.
 
-## 文件
+## Source files
 
-`index.html` 为入口。`app.js` 管理本地交互，`workflow.js` 管理演示进度，`modules.js`、`live.js`、`pro.js` 管理六模块与渲染，`reading.js` 管理正文批注，`single.js` 管理单页结构，`brand.js` 管理 VYNSIQ 身份、主题与启动说明。对应 CSS 文件分层覆盖，`assets/vynsiq-logo.jpg` 为网页 Logo。
+app.js manages local interactions. workflow.js manages the research timeline. modules.js, live.js and pro.js implement the six-system terminal. reading.js implements annotations. single.js composes the page. brand.js manages identity, themes and launch material. CSS files layer the design. assets/vynsiq-logo.jpg is the web logo.
