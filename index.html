@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#151613"><title>SENTINEL / 安全研究终端</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="workflow.css"><link rel="stylesheet" href="modules.css"><link rel="stylesheet" href="live.css"></head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#151613"><title>SENTINEL / 安全研究终端</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="workflow.css"><link rel="stylesheet" href="modules.css"><link rel="stylesheet" href="live.css"><link rel="stylesheet" href="pro.css"></head>
 <body>
 <header class="windowbar"><div class="windowdots"><i></i><i></i><i></i></div><span>sentinel@research-lab: ~/workspace</span><span class="version">v.0.1.0 <b>LOCAL DEMO</b></span></header>
 <div class="shell">
@@ -32,6 +32,6 @@
 <dialog id="taskDialog"><form id="taskForm"><div class="dialoghead"><span>＋ NEW RESEARCH SESSION</span><button type="button" data-close="taskDialog" aria-label="关闭">×</button></div><h2>新建研究任务<span class="minttext">_</span></h2><p>创建一条本地模拟研究任务。</p><label>任务名称<input name="taskName" required maxlength="80" placeholder="例如：新版本代码变更复核"></label><label>示例授权目标<select name="target"><option>Northstar / api.northstar.example</option><option>Orbit / custody.orbit.example</option><option>Helix / sdk.helix.example</option></select></label><fieldset><legend>协作节点</legend><label><input type="checkbox" checked disabled> Claude / 分析</label><label><input type="checkbox" checked disabled> GPT / 复核</label><label><input type="checkbox" checked disabled> Gemini / 证据</label></fieldset><button class="primary" type="submit">创建演示任务 →</button></form></dialog>
 <dialog id="detailDialog"><div class="dialoghead"><span id="detailId"></span><button data-close="detailDialog" aria-label="关闭">×</button></div><div id="detailContent"></div><div class="dialogactions"><button id="exportReport">↓ 导出报告草稿</button><button id="reviewFinding" class="primary">标记已复核</button></div></dialog>
 <dialog id="palette"><div class="dialoghead"><span>COMMAND PALETTE</span><button data-close="palette" aria-label="关闭">×</button></div><h2>下一步做什么？</h2><button data-action="task">＋ 新建模拟研究任务 <kbd>N</kbd></button><button data-action="targets">⌕ 查看授权目标</button><button data-action="findings">◈ 打开漏洞队列</button><button data-action="pause">Ⅱ 暂停 / 继续事件流</button><button data-action="export">↓ 导出演示日志</button></dialog>
-<div id="toast" role="status"></div><script src="app.js"></script><script src="workflow.js"></script><script src="modules.js"></script><script src="live.js"></script>
+<div id="toast" role="status"></div><script src="app.js"></script><script src="workflow.js"></script><script src="modules.js"></script><script src="live.js"></script><script src="pro.js"></script>
 </body></html>
 
