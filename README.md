@@ -1,14 +1,14 @@
-# VYNSIQ
+# VERQIX
 
 **See the signal. Verify the risk.**
 
-VYNSIQ is a multi-model AI security research project focused on authorized exchange research, evidence verification and inspectable reporting. It aims to pursue valid bug bounties through human-reviewed reports.
+VERQIX is a multi-model AI security research project focused on authorized exchange research, evidence verification and inspectable reporting. It aims to pursue valid bug bounties through human-reviewed reports.
 
 The public release is an interactive frontend prototype. No live model integrations, external scanning, exploitation or report submissions are active. Targets, findings, throughput, events and ledger balances are sample data.
 
 ## Run locally
 
-Open index.html, or download VYNSIQ-terminal.html for the self-contained version. No installation or external fonts are required.
+Open index.html, or download VERQIX-terminal.html for the self-contained version. No installation or external fonts are required.
 
 ## Single-page workspace
 
@@ -53,4 +53,4 @@ Official platform references:
 
 ## Source files
 
-app.js manages local interactions. workflow.js manages the research timeline. modules.js, live.js and pro.js implement the six-system terminal. reading.js implements annotations. single.js composes the page. brand.js manages identity, themes and launch material. CSS files layer the design. assets/vynsiq-logo.jpg is the web logo.
+app.js manages local interactions. workflow.js manages the research timeline. modules.js, live.js and pro.js implement the six-system terminal. reading.js implements annotations. single.js composes the page. brand.js manages identity, themes and launch material. CSS files layer the design. assets/verqix-logo.png is the web logo.

@@ -1,9 +1,9 @@
-VYNSIQ / PUBLIC LAUNCH MATERIAL
+VERQIX / PUBLIC LAUNCH MATERIAL
 
-Name: VYNSIQ
+Name: VERQIX
 Tagline: See the signal. Verify the risk.
 
-VYNSIQ is a multi-model AI security research project focused on authorized exchange security research. It aims to connect source monitoring, independent review, evidence verification and human-reviewed reporting to pursue valid bug bounties. The current public release is an interactive prototype; no live scanning or model integrations are active.
+VERQIX is a multi-model AI security research project focused on authorized exchange security research. It aims to connect source monitoring, independent review, evidence verification and human-reviewed reporting to pursue valid bug bounties. The current public release is an interactive prototype; no live scanning or model integrations are active.
 
 Systems: Research Vault / Research Orchestrator / Multi-model Core / Evidence Verifier / Research Workstation / Evidence Graph.
 
