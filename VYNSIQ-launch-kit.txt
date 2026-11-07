@@ -11,10 +11,7 @@ Current release: single-page prototype, sample sessions, system explanations, an
 
 Next: Backend and model integrations → Authorized pilot → Real verification and human review → Program review and retrospective.
 
-Owner-provided contract address: 57tZ2EXafG3P8Fr8P8d3EN6oWG4bUSMQXcs5Po8Upump
-Token page: https://pump.fun/coin/57tZ2EXafG3P8Fr8P8d3EN6oWG4bUSMQXcs5Po8Upump
-Official X: https://x.com/VERQIXai
-Pending: official Telegram account and any adopted issuance or vesting details.
+Pending: verified token page, contract address, official X and Telegram accounts, and any adopted issuance or vesting details.
 
 Source: https://github.com/GHOSTXrun/-s
 Fees: https://pump.fun/docs/fees

@@ -35,12 +35,7 @@ Claude, GPT and Gemini are planned collaboration roles, not live connections. A 
 
 ## Launch status
 
-Official X / Twitter: https://x.com/VERQIXai.
-
-Owner-provided contract address: `57tZ2EXafG3P8Fr8P8d3EN6oWG4bUSMQXcs5Po8Upump`.
-Token page: https://pump.fun/coin/57tZ2EXafG3P8Fr8P8d3EN6oWG4bUSMQXcs5Po8Upump.
-
-Other official social accounts, allocations and vesting parameters have not been supplied.
+A Pump.fun launch is planned. Official X / Twitter: https://x.com/VERQIXai. No verified token page, contract address, other official social accounts, allocations or vesting parameters have been supplied. Pending entries do not link to invented assets.
 
 Bounty revenue is separate from token ownership. No token revenue-distribution, dividend or buyback arrangement has been announced, and no fixed return is promised.
 
